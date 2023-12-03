@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados do documento -->
+    <meta charset="UTF-8">
+    <title>Portal de Notícias Comunitário</title>
+
+    <!-- Folha de estilo local -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Folha de estilo para ícones -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- Cabeçalho -->
+<header>
+    <!-- Barra de navegação -->
+    <div class="nav container">
+        <!-- Logo -->
+        <a href="#" class="logo">Portal de Notícias <span>Comunitário</span></a>
+
+        <!-- Formulário de pesquisa -->
+        <form class="search" id="searchForm" action="search.html" method="GET">
+            <label for="searchInput"></label>
+            <input type="text" id="searchInput" name="searchInput" placeholder="Pesquisar por notícias"
+                   class="search-input">
+            <input type="submit" value="Pesquisar" class="search-button">
+        </form>
+    </div>
+</header>
+
+<!-- Página principal -->
+<section class="home" id="home">
+    <div class="home-text container">
+        <h2 class="home-title">Portal de Notícias Comunitário</h2>
+        <span class="home-subtitle">Portal de Notícias Comunitário</span>
+    </div>
+</section>
+
+<!-- Conteúdo Principal -->
+<div class="container">
+
+    <!-- Container para notícias (será populado dinamicamente) -->
+    <div id="noticias"></div>
+
+    <!-- Mensagem para nenhum resultado -->
+    <div id="mensagemNenhumaNoticia" style="display: none;">Nenhuma notícia encontrada com esse nome.</div>
+</div>
+
+<!-- Rodapé -->
+<div class="footer container">
+    <p>2023, Portal de Notícias Comunitário</p>
+
+    <!-- Ícones de redes sociais -->
+    <div class="social">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+</div>
+
+<!-- Comentários (não fornecidos no código, mas referenciados) -->
+
+<!-- Inclusão do jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+
+<!-- Inclusão do script personalizado -->
+<script src="script.js"></script>
+</body>
+</html>

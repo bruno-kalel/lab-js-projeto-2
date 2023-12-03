@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados do documento -->
+    <meta charset="UTF-8">
+    <title>Portal de Notícias Comunitário</title>
+
+    <!-- Folha de estilo local -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Folha de estilo para ícones -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- Cabeçalho -->
+<header>
+    <!-- Barra de navegação -->
+    <div class="nav container">
+        <!-- Logo -->
+        <a href="#" class="logo">Portal de Notícias <span>Comunitário</span></a>
+
+        <!-- Formulário de pesquisa -->
+        <form class="search" id="searchForm" action="search.html" method="GET">
+            <label for="searchInput"></label>
+            <input type="text" id="searchInput" name="searchInput" placeholder="Pesquisar por notícias"
+                   class="search-input">
+            <input type="submit" value="Pesquisar" class="search-button">
+        </form>
+    </div>
+</header>
+
+<!-- Página principal -->
+<section class="home" id="home">
+    <div class="home-text container">
+        <h2 class="home-title">Portal de Notícias Comunitário</h2>
+        <span class="home-subtitle">Portal de Notícias Comunitário</span>
+    </div>
+</section>
+
+<!-- Filtro de notícias -->
+<div class="post-filter container">
+    <span class="filter-item active-filter" data-filter="all">Todas</span>
+    <span class="filter-item" data-filter="local">Local</span>
+    <span class="filter-item" data-filter="nacional">Nacional</span>
+    <span class="filter-item" data-filter="esporte">Esporte</span>
+    <span class="filter-item" data-filter="cultura">Cultura</span>
+</div>
+
+<!-- Notícias -->
+<section class="post container" id="news-container">
+    <!-- Esta seção será populada dinamicamente pelo JavaScript -->
+</section>
+
+<!-- Rodapé -->
+<div class="footer container">
+    <p>2023, Portal de Notícias Comunitário</p>
+
+    <!-- Ícones de redes sociais -->
+    <div class="social">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+</div>
+
+<!-- Comentários (Disqus) -->
+<!-- O local onde os comentários do Disqus aparecerão -->
+<div class="container">
+    <div id="disqus_thread"></div>
+</div>
+
+<!-- Inclusão do script do Disqus -->
+<script>
+    let disqus_config = function () {
+        this.page.url = "https://cc4news.disqus.com";  // Substitua pela URL real da sua página
+        this.page.identifier = window.location.href;  // Identificador único para a página
+    };
+
+    (function () {  // NÃO EDITE ABAIXO DESTA LINHA
+        let d = document, s = d.createElement('script');
+        s.src = 'https://cc4news.disqus.com/embed.js';  // Substitua YOUR_SHORTNAME pelo seu nome curto do Disqus
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<!-- Inclusão do script de contagem de comentários do Disqus -->
+<script id="dsq-count-scr" src="https://cc4news.disqus.com/count.js" async></script>
+
+<!-- Inclusão do jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+
+<!-- Inclusão do script personalizado -->
+<script src="script.js"></script>
+</body>
+</html>

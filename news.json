@@ -1,0 +1,248 @@
+{
+  "news": [
+    {
+      "id": "local-post-1",
+      "div": {
+        "class": "post-box local",
+        "children": [
+          {
+            "img": {
+              "src": "VerOPeso.jpg",
+              "alt": "Local Image 1",
+              "class": "post-img"
+            }
+          },
+          {
+            "h2": {
+              "class": "category",
+              "text": "Local"
+            }
+          },
+          {
+            "a": {
+              "href": "post-page.html?id=local-post-1",
+              "class": "post-title",
+              "text": "Inovação em Belém: Novo Projeto de Sustentabilidade Ambiental é Lançado na Região Metropolitana"
+            }
+          },
+          {
+            "span": {
+              "class": "post-date",
+              "text": "December 5, 2023"
+            }
+          },
+          {
+            "p": {
+              "class": "post-description",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id posuere tortor. Etiam consequat mauris a odio iaculis gravida at quis ligula. In hac habitasse platea dictumst."
+            }
+          },
+          {
+            "div": {
+              "class": "profile",
+              "children": [
+                {
+                  "img": {
+                    "src": "Default.jpg",
+                    "alt": "Local Profile Image 1",
+                    "class": "profile-img"
+                  }
+                },
+                {
+                  "span": {
+                    "class": "profile-name",
+                    "text": "LocalReporter1"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "nacional-post-1",
+      "div": {
+        "class": "post-box nacional",
+        "children": [
+          {
+            "img": {
+              "src": "Evandro.jpg",
+              "alt": "Nacional Image 1",
+              "class": "post-img"
+            }
+          },
+          {
+            "h2": {
+              "class": "category",
+              "text": "Nacional"
+            }
+          },
+          {
+            "a": {
+              "href": "post-page.html?id=nacional-post-1",
+              "class": "post-title",
+              "text": "Avanço Científico Brasileiro: Pesquisadores Anunciam Descoberta Promissora no Combate a Doenças Crônicas"
+            }
+          },
+          {
+            "span": {
+              "class": "post-date",
+              "text": "December 6, 2023"
+            }
+          },
+          {
+            "p": {
+              "class": "post-description",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id posuere tortor. Etiam consequat mauris a odio iaculis gravida at quis ligula. In hac habitasse platea dictumst."
+            }
+          },
+          {
+            "div": {
+              "class": "profile",
+              "children": [
+                {
+                  "img": {
+                    "src": "Default.jpg",
+                    "alt": "Nacional Profile Image 1",
+                    "class": "profile-img"
+                  }
+                },
+                {
+                  "span": {
+                    "class": "profile-name",
+                    "text": "NacionalReporter1"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "esporte-post-1",
+      "div": {
+        "class": "post-box esporte",
+        "children": [
+          {
+            "img": {
+              "src": "Paysandu.jpg",
+              "alt": "Esporte Image 1",
+              "class": "post-img"
+            }
+          },
+          {
+            "h2": {
+              "class": "category",
+              "text": "Esporte"
+            }
+          },
+          {
+            "a": {
+              "href": "post-page.html?id=esporte-post-1",
+              "class": "post-title",
+              "text": "Paysandu FC Conquista Vitória Decisiva em Jogo Eletrizante e Mantém Liderança na Série B"
+            }
+          },
+          {
+            "span": {
+              "class": "post-date",
+              "text": "December 7, 2023"
+            }
+          },
+          {
+            "p": {
+              "class": "post-description",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id posuere tortor. Etiam consequat mauris a odio iaculis gravida at quis ligula. In hac habitasse platea dictumst."
+            }
+          },
+          {
+            "div": {
+              "class": "profile",
+              "children": [
+                {
+                  "img": {
+                    "src": "Default.jpg",
+                    "alt": "Esporte Profile Image 1",
+                    "class": "profile-img"
+                  }
+                },
+                {
+                  "span": {
+                    "class": "profile-name",
+                    "text": "EsporteReporter1"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "cultura-post-1",
+      "div": {
+        "class": "post-box cultura",
+        "children": [
+          {
+            "img": {
+              "src": "Cultura.jpg",
+              "alt": "Cultura Image 1",
+              "class": "post-img"
+            }
+          },
+          {
+            "h2": {
+              "class": "category",
+              "text": "Cultura"
+            }
+          },
+          {
+            "a": {
+              "href": "post-page.html?id=cultura-post-1",
+              "class": "post-title",
+              "text": "Expressões Artísticas em Destaque: Festival Cultural Celebrará a Diversidade Cultural na Cidade"
+            }
+          },
+          {
+            "span": {
+              "class": "post-date",
+              "text": "December 8, 2023"
+            }
+          },
+          {
+            "p": {
+              "class": "post-description",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id posuere tortor. Etiam consequat mauris a odio iaculis gravida at quis ligula. In hac habitasse platea dictumst."
+            }
+          },
+          {
+            "div": {
+              "class": "profile",
+              "children": [
+                {
+                  "img": {
+                    "src": "Default.jpg",
+                    "alt": "Cultura Profile Image 1",
+                    "class": "profile-img"
+                  }
+                },
+                {
+                  "span": {
+                    "class": "profile-name",
+                    "text": "CulturaReporter1"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+
+
+
+
+  ]
+}
